@@ -1,0 +1,293 @@
+html, body, ul, li, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #a8adb5;
+}
+
+.wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #35424a;
+  overflow: hidden;
+  padding: 3px 0;
+}
+
+#logo img {
+  width: 220px;
+  height: 115px;
+  margin: 0 35%;
+}
+
+/*CSS Untuk Slider*/
+
+#slider img {
+  width: 1120px;
+  height: 560px;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300;
+  }
+  100% {
+    left: -400;
+  }
+
+}
+  #slider {
+    overflow: hidden;
+  }
+  #slider figure img {
+    width: 20%;
+    float: left;
+  }
+  #slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 20s slider infinite;
+  }
+
+/* CSS Untuk Menu*/
+
+.wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+
+nav li {
+  margin: 5px;
+}
+
+#menu {
+  background-color: #35424a;
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+#menu a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  padding: 12px 15px;
+  width: 60px;
+  text-align: center;
+  background-color: #18bdf6;
+}
+
+nav li:hover{
+  background-color: #e8491d;
+  transition: 0.5s;
+}
+
+/*CSS Destinasi*/
+
+#options {
+  padding: 20px 0;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  text-align: center;
+}
+
+#options img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+#options a {
+  text-decoration: none;
+  color: white;
+  background-color: #18bdf6;
+  display: block;
+  width: 200px;
+  padding: 10px 0;
+  text-align: center;
+  margin: 10px auto 0 auto;
+}
+
+#options a:hover{
+  background-color: #e8491d;
+  transition: 0.5s;
+}
+
+.wrapper h1 {
+  text-align: center;
+  color: #e8491d;
+}
+
+.boxes .box {
+  margin: 0 10px;
+}
+
+/*CSS Search Box*/
+
+form {
+    width:500px;
+    margin:10px auto;
+    text-align: center;
+}
+.search {
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    background-color: #cdd4d6;
+    border:0px solid #dbdbdb;
+    width: 400px;
+    height: 30px;
+}
+.button {
+    position:relative;
+    padding:6px 15px;
+    left: 8px;
+    border:2px solid #18bdf6;
+    background-color:#18bdf6;
+    color:#fafafa;
+    height: 45px;
+}
+.button:hover  {
+    background-color:#e8491d;
+    color:#207cca;
+    transition: 0.5s;
+}
+
+#features img {
+  width: 190px;
+  height: 190px;
+}
+
+#features h2 {
+  text-align: center;
+  color: #e8491d;
+}
+
+/*CSS Follow By Email*/
+
+#newsletter {
+  padding: 5px 0;
+  background-color: #35424a;
+  text-align: center;
+}
+
+input[type="email"] {
+  width: 300px;
+  padding: 10px;
+  background-color: #cdd4d6;
+  margin: 8px;
+}
+
+button {
+  width: 80px;
+  padding: 10px;
+  background-color: #18bdf6;
+  color: white;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #e8491d;
+  transition: 0.5s;
+}
+
+#features1 img {
+  width: 250px;
+  height: 190px;
+}
+
+#features1 h2 {
+  text-align: center;
+  color: #e8491d;
+}
+
+/*CSS Footer*/
+footer {
+  text-align: center;
+  background-color: #35424a;
+  padding: 15px 0;
+  color: white;
+}
+
+footer .kiri {
+  text-align: left;
+}
+
+/*CSS Sosmed*/
+
+#foot {
+  background-color: #35424a;
+  padding: 15px 0;
+  color: white;
+}
+
+.sosmed {
+display: grid;
+grid-template-columns: 1fr 0;
+grid-gap: 5px;
+text-align: center;
+}
+
+.partner img {
+  height: 80px;
+  width: 175px;
+  margin: 0 15px;
+}
+
+.sosmed p {
+  margin: 5px 5px;
+}
+
+hr{
+  width: 100%;
+}
+
+#footer1{
+  width: 30%;
+}
+
+/*.top img {
+  width: 90px;
+  height: 90px;
+  float: right;
+  margin: auto;
+} */

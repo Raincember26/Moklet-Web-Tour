@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulir JavaScript</title>
+    <script>
+      function volume()
+      {
+        var p = document.getElementById('panjang').value;
+        var l = document.getElementById('lebar').value;
+        var t = document.getElementById('tinggi').value;
+
+        var h = document.getElementById('hasil');
+
+        if (p == "" || l == "" || t == "") {
+
+          alert("Masukkan Data Dengan Benar!!");
+
+        }
+        else if (isNaN(p) || isNaN(l) || isNaN(t)) {
+
+          alert("Data Tidak Valid, Tolong masukkan dengan benar!!");
+
+        }
+        else {
+
+          h.innerHTML = "Volume = " + (p*l*t) + " cm<sup>3</sup>"
+
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <form action="" method="">
+      <p>
+          <label for="">Masukkan Panjang : </label>
+          <input type="text" name="panjang" id="panjang">
+      </p>
+
+      <p>
+          <label for="">Masukkan Lebar : </label>
+          <input type="text" name="lebar" id="lebar">
+      </p>
+
+      <p>
+          <label for="">Masukkan Tinggi : </label>
+          <input type="text" name="tinggi" id="tinggi">
+      </p>
+      <p>
+          <button type="button" onclick="volume()"> Hasil </button>
+      </p>
+
+      <p id="hasil"> </p>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulir JavaScript</title>
+    <script>
+      function konversi()
+      {
+        var s = document.getElementById('suhu').value;
+        var o = document.getElementById('opsi').value;
+
+        var h = document.getElementById('hasil');
+
+
+
+               if (s == "" || isNaN(s)) {
+                 alert("Masukkan Data Dengan Benar!!")
+               }
+
+       else if (o == "r")
+       {
+         h.innerHTML = s + " C = " + (0.8*s) + " R ";
+       }
+       else if (o == "f")
+       {
+        h.innerHTML = s + "C = " + (1.8*s+32) + " F ";
+       }
+       else if (o == "k")
+       {
+         h.innerHTML = s + "C = " + (Number(s)+273) + " K ";
+       }
+      }
+    </script>
+  </head>
+  <body>
+    <form action="" method="">
+      <p>
+          <label for="">Masukkan Suhu : </label>
+          <input type="text" name="suhu" id="suhu">
+      </p>
+<p>
+    <label>Ubah Ke</label>
+    <select  id="opsi">
+        <option value="r">Reamur</option>
+          <option value="f">Fahrenheit</option>
+            <option value="k">Kelvin</option>
+    </select>
+</p>
+      <p>
+          <button type="button" onclick="konversi()"> Proses </button>
+      </p>
+
+      <p id="hasil"> </p>
+    </form>
+  </body>
+</html>

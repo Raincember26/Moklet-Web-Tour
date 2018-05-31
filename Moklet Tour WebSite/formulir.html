@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Moklet Tour</title>
+      <link rel="shortcut icon" href="gambar/favicon.png">
+
+<style>
+
+body {
+  background: url(gambar/form.jpg);
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ font-family:'HelveticaNeue','Arial', sans-serif;
+}
+
+.form-style-3{
+	max-width: 450px;
+	font-family: sans-serif;
+  left:50%;
+	top:50%;
+	margin-left:400px;
+	margin-top:80px;
+}
+.form-style-3 label{
+	display:block;
+	margin-bottom: 10px;
+}
+.form-style-3 label > span{
+	float: left;
+	width: 100px;
+	color: #18bdf6;
+	font-weight: bold;
+	font-size: 13px;
+	text-shadow: 1px 1px 1px #ffff;
+}
+.form-style-3 fieldset{
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid #18bdf6;
+	padding: 20px;
+	background: #ffff;
+	box-shadow: inset 0px 0px 15px #ffff;
+	-moz-box-shadow: inset 0px 0px 15px #ffff;
+	-webkit-box-shadow: inset 0px 0px 15px #ffff;
+}
+.form-style-3 fieldset legend{
+	color: #18bdf6;
+	border-top: 1px solid #18bdf6;
+	border-left: 1px solid #18bdf6;
+	border-right: 1px solid #18bdf6;
+	border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	background: #ffff;
+	padding: 0px 8px 3px 8px;
+	box-shadow: -0px -1px 2px #ffff;
+	-moz-box-shadow:-0px -1px 2px #ffff;
+	-webkit-box-shadow:-0px -1px 2px #ffff;
+	font-weight: normal;
+	font-size: 12px;
+}
+.form-style-3 textarea{
+	width:250px;
+	height:100px;
+}
+.form-style-3 input[type=text],
+.form-style-3 input[type=date],
+.form-style-3 input[type=datetime],
+.form-style-3 input[type=number],
+.form-style-3 input[type=search],
+.form-style-3 input[type=time],
+.form-style-3 input[type=url],
+.form-style-3 input[type=email],
+.form-style-3 select,
+.form-style-3 textarea{
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border: 1px solid #18bdf6;
+	outline: none;
+	color: #18bdf6;
+	padding: 5px 8px 5px 8px;
+	box-shadow: inset 1px 1px 4px #18bdf6;
+	-moz-box-shadow: inset 1px 1px 4px #18bdf6;
+	-webkit-box-shadow: inset 1px 1px 4px #18bdf6;
+	background: #fff;
+	width:50%;
+
+}
+.form-style-3  input[type=submit],
+.form-style-3  input[type=button]{
+	background: #18bdf6;
+	border: 1px solid #18bdf6;
+	padding: 5px 15px 5px 15px;
+	color: #FFCBE2;
+	box-shadow: inset -1px -1px 3px #ffff;
+	-moz-box-shadow: inset -1px -1px 3px #ffff;
+	-webkit-box-shadow: inset -1px -1px 3px #ffff;
+	border-radius: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	font-weight: bold;
+}
+.form-style-3 .required{
+	color:red;
+	font-weight:normal;
+}
+
+h1 {
+  text-align: center;
+  color: #18bdf6;
+}
+
+</style>
+    </head>
+      <body>
+        <h1>Formulir Pemesanan</h1>
+
+          <div class="form-style-3">
+            <form>
+              <fieldset><legend>Data Pribadi</legend>
+  <label for="field1"><span>Name : <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
+  <label for="field2"><span>Email : <span class="required">*</span></span><input type="email" class="input-field" name="field2" value="" /></label>
+  <label for="field3"><span>Phone : <span class="required">*</span></span><input type="text" class="input-field" name="field3" value="" /></label>
+  <label for="field4"><span>Tujuan : </span><select name="field4" class="select-field">
+<option value=" ">Pilih</option>
+  <option value="Paris">Paris</option>
+    <option value="Bali">Bali</option>
+      <option value="Batam">Batam</option>
+        <option value="London">London</option>
+        <option value="Kyoto">Kyoto</option>
+        <option value="Roma">Roma</option>
+        <option value="Tokyo">Tokyo</option>
+  </select></label>
+    </fieldset>
+    <fieldset><legend>Komentar</legend>
+      <label for="field6"><span>Komentar : <span class="required">*</span></span><textarea name="field6" class="textarea-field"></textarea></label>
+      <label><span>&nbsp;</span><input type="submit" value="Kirim"/></label>
+    </fieldset>
+  </form>
+</div>
+
+</body>
+</html>
