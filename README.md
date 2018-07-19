@@ -4,10 +4,10 @@ Web ini merupakan project pertama saya saat menginjak di kelas X SMK, web ini be
 ## Application Mock-Up
 
 ### Homepage
-<img src="https://raw.githubusercontent.com/galihputra26/Moklet-SIUNIV/master/Asset%20Gallery/Login%20Page.png" width="256">
+<img src="https://raw.githubusercontent.com/galihputra26/Moklet-Web-Tour/master/Asset%20Gallery%202/Home%20Page.png" width="256">
 
 ### Halaman Paket Wisata
-<img src="https://github.com/galihputra26/Moklet-SIUNIV/blob/master/Asset%20Gallery/Home%20Page%202.png?raw=true" width="256">
+<img src="https://raw.githubusercontent.com/galihputra26/Moklet-Web-Tour/master/Asset%20Gallery%202/Paket%20Wisata.png" width="256">
 
 ## Created By
 * **Galih Putra Windawan** - *Software Engineer* - [galihputra26](https://github.com/galihputra26)
